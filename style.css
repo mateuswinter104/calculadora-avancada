@@ -1,3 +1,74 @@
 body{
     background-color: rgb(72, 75, 74);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: rgba(70, 69, 69, 0.685);
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.container {
+    width: 80%;
+    min-height: 800px;
+    margin: auto;
+    padding: 35px;
+    background-color: #f7f7f7;
+}
+.calculadora{
+    width: 250px;
+    height: 320px;
+    margin: auto;
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px;
+    padding: 25px;
+}
+.display{
+    font-size: 3em;
+    padding: 0 8px;
+    text-align: right;
+    color: #151d15;
+    background-color: rgb(136, 132, 132);
+    
+    border-radius: 10px;
+    margin: 10px  0;
+}
+.teclado{
+    padding-top: 20px;
+}
+.tecla{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    display: inline-block;
+    padding: 0 1.4px;
+    transition: 0.5s;
+}
+.tecla:hover{
+    background-color:white;
+    color:  rgb(97, 97, 97);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.tecla:active{ /*pra quando clicar no objeto*/
+    background-color: purple;
+    color: white;
+    transition: 0s;
+}
+.linha{
+    margin: auto;
+    margin: 10px 0;    
+}
+#zero{
+    width: 90px;
+}
+#igual{
+    height: 90px;
+    float: right;
+    margin-right: 0px;
+    line-height: 80px;
 }
